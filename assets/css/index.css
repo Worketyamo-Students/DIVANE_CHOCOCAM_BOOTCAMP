@@ -1,0 +1,9 @@
+:root{
+    font-size: 10px;
+    --primary-color:#3E3232;
+    --black-color:#020202;
+    --color-black:#000000;
+    --neutral-color:#DFCECE;
+    --poppins-family:"Poppins", sans-serif;
+    --white-color:#FFFFFF;
+}
