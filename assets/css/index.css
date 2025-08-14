@@ -150,3 +150,26 @@ ul{
         .desc_sec2 h2{
          margin: 5rem;
         }
+
+        /* Debut section 3 */
+
+        .section3{
+            display: flex;
+            background-color: var(--primary-color);
+            justify-content: space-between;
+            align-items: center;
+            font-size: 2rem;
+            color: var(--white-color);
+            margin-top: 10rem;
+        }
+
+        .desc_sec3{
+            text-align: center;
+            padding: 15rem;
+        }
+        
+        .desc_sec3 h2{
+            font-size: 5rem;
+            font-weight: 900;
+        
+        }
