@@ -287,4 +287,12 @@ ul{
             color: var(--primary-color);
 
         }
+
+        footer{
+            margin-top: 10rem;
+            background-color: var(--primary-color);
+            padding: 10rem;
+            display: flex;
+            justify-content: center;
+        }
         
