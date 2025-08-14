@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--poppins-family);
+    /* overflow-x: hidden; */
 }
 
 /* Debut du Nav */
@@ -226,3 +227,64 @@ ul{
             position: absolute;
             margin: 5rem -35rem;
         }
+
+        /* Debut du form */
+
+        .form{
+            background-color: var(--neutral-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10rem;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form input{
+            margin-bottom: 4rem;
+            display: flex;
+        }
+
+        .input_flex{
+            display: flex;
+            gap: 2rem;
+        }
+
+        .input_1{
+            width: 50rem;
+            height: 5rem;
+            padding-left: 2rem;
+        }
+
+        .input_2{
+            width: 24rem;
+            height: 5rem;
+            padding-left: 2rem;
+        }
+
+        .btn3{
+        width: 40rem;
+        background-image: url('/assets/images/mail_FILL0_wght400_GRAD0_opsz24\ \(1\)\ 1.png');
+        background-repeat: no-repeat;
+        background-size: 4rem;
+        background-position: 10rem;
+        height: 6rem;
+        font-size: 2rem;
+        color: var(--neutral-color);
+        background-color: var(--primary-color);
+        }
+
+        .input_1,.input_2::placeholder{
+            font-size: 2rem;
+            font-family: var(--poppins-family);
+            font-style: italic;
+            text-align: center;
+            color: var(--primary-color);
+
+        }
+        
