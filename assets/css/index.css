@@ -7,3 +7,111 @@
     --poppins-family:"Poppins", sans-serif;
     --white-color:#FFFFFF;
 }
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins-family);
+}
+
+/* Debut du Nav */
+
+header{
+    display: flex;
+    /* background-color: #3E3232; */
+    justify-content: space-between;
+    padding: 0 2rem;
+     
+}
+
+header img{
+    height: 6rem;
+}
+
+ul{
+    display: flex;
+    /* background-color: #fff; */
+    width: 65%;
+   justify-content: space-between;
+   font-size: 2rem;
+   align-items: center;
+   }
+
+   header li{
+    list-style: none;
+    
+   }
+
+   header a{
+    color: var(--black-color);
+    text-decoration: none;
+    font-weight: 500;
+  
+   }
+
+   header a:hover{
+    color: var(--primary-color);
+    font-weight: 900;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: .5rem;
+    }
+
+    .btn{
+        width: 15rem;
+        font-size: 2rem;
+        color: var(--neutral-color);
+        background-color: var(--primary-color);
+    }
+
+    /* Debut section 1 */
+
+    .section1{
+        display: flex;
+        /* background-color: aqua; */
+        margin: 2rem;
+        height: 80rem;
+    }
+
+    .sec1_desc{
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 13rem ;
+        /* justify-content: center; */
+        align-items: center;
+        font-size: 3rem;
+        font-weight: 300;
+        flex: 1;
+        }
+    
+
+        .sec1_desc h2{
+         margin: 5rem;
+        }
+
+        .img_sec1{
+            flex: 1;
+            /* background: #000; */
+            text-align: right;
+        }
+
+        .img_sec1 img{
+            width: 100%;
+            
+        }
+
+        .btn2{
+        width: 40rem;
+        height: 8rem;
+        font-size: 2rem;
+        color: var(--neutral-color);
+        background-color: var(--primary-color);
+        font-weight: 600;
+
+        }
+
+        .sec1_desc p{
+            margin-bottom: 4rem;
+        }
+
+        /* Debut section 2 */
