@@ -173,3 +173,56 @@ ul{
             font-weight: 900;
         
         }
+        .sec4{
+            /* background-color: lightskyblue; */
+            padding: 4rem;
+            margin: 10rem 0;
+        }
+
+        .sec_img1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .vector1{
+            position: relative;
+        }
+
+        .bonbons{
+            position: absolute;
+            margin: 3rem -35rem;
+            /* background-color: #000000; */
+        }
+
+        .vector2{
+            position: relative;
+        }
+
+        .tartine{
+            position: relative;
+            margin-left:-35rem;
+            /* background-color: #fff; */
+            margin-bottom: 4rem;
+        }
+
+        .sec4_img2{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .vector3{
+            position: relative;
+        }
+
+        .manbo{
+            position: absolute;
+            margin: 3rem -43rem;
+        }
+
+        .vector4{
+            position: relative;
+        }
+
+        .kolabon{
+            position: absolute;
+            margin: 5rem -35rem;
+        }
